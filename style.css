@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
+	background: url("splash.gif");
+	background-size: 190vh;
+}
+
+
+#bt{
+	height: 9%;
+    width: 300px;
+font-family: 'Raleway', sans-serif;
+	font-size:200%;
+	border: none;
+	outline: none;
+	color: white;
+    background-color: transparent;
+			border: 2px solid #6bdaff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 10vh;
+			margin-top: 20vh;
+			margin-left: 110vh;
+			visibility: visible;
+}
+
+#bt:hover{
+	height: 9%;
+	width: 300px;
+		font-size: 210%;
+		transition: 0.3s ease;
+		border: none;
+			box-shadow: inset 300px 0 0 0 #6bdaff;
+			cursor: pointer;
+			border-radius: 0;
+}
